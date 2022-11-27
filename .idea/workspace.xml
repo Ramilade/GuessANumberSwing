@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="071e7373-7bf8-477a-bde7-077a7e323ef3" name="Changes" comment="Done">
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
-    </list>
+    <list default="true" id="071e7373-7bf8-477a-bde7-077a7e323ef3" name="Changes" comment="Done - tilføjer input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669547372865</updated>
-      <workItem from="1669547374318" duration="7406000" />
+      <workItem from="1669547374318" duration="8288000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1669565958096</created>
@@ -82,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669570013993</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Done - tilføjer input">
+      <created>1669574772790</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669574772790</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +108,7 @@
     <MESSAGE value="Guess &quot;if statement&quot; added" />
     <MESSAGE value="Game answer" />
     <MESSAGE value="Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done" />
+    <MESSAGE value="Done - tilføjer input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done - tilføjer input" />
   </component>
 </project>
