@@ -5,6 +5,7 @@ import java.awt.event.ActionListener;
 
 public class GameFrame extends JFrame implements ActionListener {
 
+    JTextField inputField;
     Game game;
 
     public GameFrame(String title) {
@@ -27,7 +28,7 @@ public class GameFrame extends JFrame implements ActionListener {
         JLabel tries = new JLabel("Antal forsøg: ");
         getContentPane().add(tries);
 
-        JTextField inputField = new JTextField(8);
+        inputField = new JTextField(8);
         getContentPane().add(inputField);
 
 
@@ -42,7 +43,17 @@ public class GameFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println("Klikket");
+        String textEntered = inputField.getText();
+        int numberEntered = Integer.parseInt(textEntered);
+
+        if (numberEntered == game.getRandomNumber()) {
+            System.out.println("Du gættede rigtigt!");
+        } else if (numberEntered > game.getRandomNumber()) {
+            System.out.println("For højt!");
+        } else if (numberEntered < game.getRandomNumber()) {
+            System.out.println("For lavt!");
+        }
+
 
     }
 }

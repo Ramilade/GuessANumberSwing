@@ -13,4 +13,8 @@ public class Game {
 
     }
 
+    public int getRandomNumber() {
+        return randomNumber;
+    }
+
 }
