@@ -1,15 +1,14 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Game {
     int randomNumber;
 
     public Game() {
 
-
+        Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        randomNumber = rand.nextInt(10) + 1;
-
-        System.out.println(randomNumber);
+        randomNumber = rand.nextInt(input.nextInt()) + 1;
 
     }
 

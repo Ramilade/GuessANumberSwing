@@ -29,6 +29,16 @@ public class GameFrame extends JFrame implements ActionListener {
     }
 
     private void addComponents() {
+
+        Object[] possibilities = {null};
+        String s = (String)JOptionPane.showInputDialog(frame,
+                "Angivet et tal mellem som skal gættes. Det starter på 1 og slutter på det tal du angiver.\n",
+                "Sæt et loft for tallet der skal gættes",
+                JOptionPane.PLAIN_MESSAGE,
+                icon,
+                possibilities,
+                "ham");
+
         tries = new JLabel("Antal forsøg brugt: " + player.getTries());
         getContentPane().add(tries);
 
@@ -56,6 +66,7 @@ public class GameFrame extends JFrame implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
+
         player.addTry();
         tries.setText("Antal forsøg brugt: " + player.getTries());
 
